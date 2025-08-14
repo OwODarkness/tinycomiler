@@ -1,0 +1,21 @@
+{
+  "name": "Alice",
+  "age": 25,
+  "is_student": false,
+  "skills": ["C++", "Python", "JSON parsing"],
+  "address": {
+    "city": "Taipei",
+    "zip": 100
+  },
+  "projects": [
+    {
+      "title": "Tiny JSON Parser",
+      "completed": true
+    },
+    {
+      "title": "Game Engine",
+      "completed": false
+    }
+  ],
+  "rating": null
+}

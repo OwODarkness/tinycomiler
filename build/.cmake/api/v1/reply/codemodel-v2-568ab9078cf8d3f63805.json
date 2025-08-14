@@ -1,0 +1,476 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "runtime/lexer",
+					"jsonFile" : "directory-runtime.lexer-Debug-d5512c1594ef5524b2b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "runtime/lexer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "runtime/jsonparser",
+					"jsonFile" : "directory-runtime.jsonparser-Debug-c76e60c1da8f3ee14ee1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "runtime/jsonparser",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "TinyCompiler",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-2909cee95648ebda4f7f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "JsonParserLib::@b1c90dc8d9c054bb907e",
+					"jsonFile" : "target-JsonParserLib-Debug-66e54004c99dd5b9f98c.json",
+					"name" : "JsonParserLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LexerLib::@c8a91e6080196cc66636",
+					"jsonFile" : "target-LexerLib-Debug-ec4ac64da9b7fd31385c.json",
+					"name" : "LexerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TinyCompiler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TinyCompiler-Debug-a18b9936f1f3e55867c4.json",
+					"name" : "TinyCompiler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-84c3d485eddc9413d7a9.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "runtime/lexer",
+					"jsonFile" : "directory-runtime.lexer-Release-d5512c1594ef5524b2b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "runtime/lexer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "runtime/jsonparser",
+					"jsonFile" : "directory-runtime.jsonparser-Release-c76e60c1da8f3ee14ee1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "runtime/jsonparser",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "TinyCompiler",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-2909cee95648ebda4f7f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "JsonParserLib::@b1c90dc8d9c054bb907e",
+					"jsonFile" : "target-JsonParserLib-Release-1c5381cbcef8abe963d2.json",
+					"name" : "JsonParserLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LexerLib::@c8a91e6080196cc66636",
+					"jsonFile" : "target-LexerLib-Release-7abefb46964961419cc9.json",
+					"name" : "LexerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TinyCompiler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TinyCompiler-Release-717d11c33333ac4e0408.json",
+					"name" : "TinyCompiler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-84c3d485eddc9413d7a9.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "runtime/lexer",
+					"jsonFile" : "directory-runtime.lexer-MinSizeRel-d5512c1594ef5524b2b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "runtime/lexer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "runtime/jsonparser",
+					"jsonFile" : "directory-runtime.jsonparser-MinSizeRel-c76e60c1da8f3ee14ee1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "runtime/jsonparser",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "TinyCompiler",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-2909cee95648ebda4f7f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "JsonParserLib::@b1c90dc8d9c054bb907e",
+					"jsonFile" : "target-JsonParserLib-MinSizeRel-7b678c9c63cbbdfc533e.json",
+					"name" : "JsonParserLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LexerLib::@c8a91e6080196cc66636",
+					"jsonFile" : "target-LexerLib-MinSizeRel-cdda1830558bfbd205f3.json",
+					"name" : "LexerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TinyCompiler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TinyCompiler-MinSizeRel-0a7c84240e20ffc069d4.json",
+					"name" : "TinyCompiler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-84c3d485eddc9413d7a9.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "runtime/lexer",
+					"jsonFile" : "directory-runtime.lexer-RelWithDebInfo-d5512c1594ef5524b2b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "runtime/lexer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "runtime/jsonparser",
+					"jsonFile" : "directory-runtime.jsonparser-RelWithDebInfo-c76e60c1da8f3ee14ee1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "runtime/jsonparser",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "TinyCompiler",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-2909cee95648ebda4f7f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "JsonParserLib::@b1c90dc8d9c054bb907e",
+					"jsonFile" : "target-JsonParserLib-RelWithDebInfo-b84bce3b4a3dbe01711c.json",
+					"name" : "JsonParserLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LexerLib::@c8a91e6080196cc66636",
+					"jsonFile" : "target-LexerLib-RelWithDebInfo-15cf6c16ea2855684e49.json",
+					"name" : "LexerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TinyCompiler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TinyCompiler-RelWithDebInfo-02b782035dc299d557f8.json",
+					"name" : "TinyCompiler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-84c3d485eddc9413d7a9.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C++Project/tinycomiler/build",
+		"source" : "D:/C++Project/tinycomiler"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

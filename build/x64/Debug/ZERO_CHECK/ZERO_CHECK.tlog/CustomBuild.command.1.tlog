@@ -1,0 +1,10 @@
+^D:\C++PROJECT\TINYCOMILER\BUILD\CMAKEFILES\1BDD4357F5288D3940499A87CDC28499\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/C++Project/tinycomiler -BD:/C++Project/tinycomiler/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/C++Project/tinycomiler/build/TinyCompiler.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

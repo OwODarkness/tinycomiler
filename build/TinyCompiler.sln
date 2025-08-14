@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{9BCCFC85-D8DA-3881-A367-A317CFE2EB3C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D30EC962-1919-3AB0-8F5B-244D90844E35} = {D30EC962-1919-3AB0-8F5B-244D90844E35}
+		{58106391-290F-34BA-9658-E733649477E4} = {58106391-290F-34BA-9658-E733649477E4}
+		{B10E9D5C-2830-381E-891A-490E94932139} = {B10E9D5C-2830-381E-891A-490E94932139}
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA} = {DB13453B-DB26-3AFB-9A4A-6780832241FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonParserLib", "runtime\jsonparser\JsonParserLib.vcxproj", "{D30EC962-1919-3AB0-8F5B-244D90844E35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA} = {DB13453B-DB26-3AFB-9A4A-6780832241FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LexerLib", "runtime\lexer\LexerLib.vcxproj", "{58106391-290F-34BA-9658-E733649477E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA} = {DB13453B-DB26-3AFB-9A4A-6780832241FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyCompiler", "TinyCompiler.vcxproj", "{B10E9D5C-2830-381E-891A-490E94932139}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D30EC962-1919-3AB0-8F5B-244D90844E35} = {D30EC962-1919-3AB0-8F5B-244D90844E35}
+		{58106391-290F-34BA-9658-E733649477E4} = {58106391-290F-34BA-9658-E733649477E4}
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA} = {DB13453B-DB26-3AFB-9A4A-6780832241FA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{DB13453B-DB26-3AFB-9A4A-6780832241FA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		MinSizeRel|x64 = MinSizeRel|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BCCFC85-D8DA-3881-A367-A317CFE2EB3C}.Debug|x64.ActiveCfg = Debug|x64
+		{9BCCFC85-D8DA-3881-A367-A317CFE2EB3C}.Release|x64.ActiveCfg = Release|x64
+		{9BCCFC85-D8DA-3881-A367-A317CFE2EB3C}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{9BCCFC85-D8DA-3881-A367-A317CFE2EB3C}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{D30EC962-1919-3AB0-8F5B-244D90844E35}.Debug|x64.ActiveCfg = Debug|x64
+		{D30EC962-1919-3AB0-8F5B-244D90844E35}.Debug|x64.Build.0 = Debug|x64
+		{D30EC962-1919-3AB0-8F5B-244D90844E35}.Release|x64.ActiveCfg = Release|x64
+		{D30EC962-1919-3AB0-8F5B-244D90844E35}.Release|x64.Build.0 = Release|x64
+		{D30EC962-1919-3AB0-8F5B-244D90844E35}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{D30EC962-1919-3AB0-8F5B-244D90844E35}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{D30EC962-1919-3AB0-8F5B-244D90844E35}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{D30EC962-1919-3AB0-8F5B-244D90844E35}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{58106391-290F-34BA-9658-E733649477E4}.Debug|x64.ActiveCfg = Debug|x64
+		{58106391-290F-34BA-9658-E733649477E4}.Debug|x64.Build.0 = Debug|x64
+		{58106391-290F-34BA-9658-E733649477E4}.Release|x64.ActiveCfg = Release|x64
+		{58106391-290F-34BA-9658-E733649477E4}.Release|x64.Build.0 = Release|x64
+		{58106391-290F-34BA-9658-E733649477E4}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{58106391-290F-34BA-9658-E733649477E4}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{58106391-290F-34BA-9658-E733649477E4}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{58106391-290F-34BA-9658-E733649477E4}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{B10E9D5C-2830-381E-891A-490E94932139}.Debug|x64.ActiveCfg = Debug|x64
+		{B10E9D5C-2830-381E-891A-490E94932139}.Debug|x64.Build.0 = Debug|x64
+		{B10E9D5C-2830-381E-891A-490E94932139}.Release|x64.ActiveCfg = Release|x64
+		{B10E9D5C-2830-381E-891A-490E94932139}.Release|x64.Build.0 = Release|x64
+		{B10E9D5C-2830-381E-891A-490E94932139}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{B10E9D5C-2830-381E-891A-490E94932139}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{B10E9D5C-2830-381E-891A-490E94932139}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{B10E9D5C-2830-381E-891A-490E94932139}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA}.Debug|x64.ActiveCfg = Debug|x64
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA}.Debug|x64.Build.0 = Debug|x64
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA}.Release|x64.ActiveCfg = Release|x64
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA}.Release|x64.Build.0 = Release|x64
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{DB13453B-DB26-3AFB-9A4A-6780832241FA}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ED582D5-683B-35DD-8540-85062592DD43}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

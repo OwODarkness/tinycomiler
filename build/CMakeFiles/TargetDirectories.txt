@@ -1,0 +1,5 @@
+D:/C++Project/tinycomiler/build/CMakeFiles/TinyCompiler.dir
+D:/C++Project/tinycomiler/build/CMakeFiles/ALL_BUILD.dir
+D:/C++Project/tinycomiler/build/CMakeFiles/ZERO_CHECK.dir
+D:/C++Project/tinycomiler/build/runtime/lexer/CMakeFiles/LexerLib.dir
+D:/C++Project/tinycomiler/build/runtime/jsonparser/CMakeFiles/JsonParserLib.dir
